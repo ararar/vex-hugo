@@ -8,7 +8,7 @@ summarylength = "20"
 googleAnalytics = "" # Ex: UA-123-45
 # disable language
 disableLanguages = [] # disable language from here
-
+defaultContentLanguage = "ru"
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true
@@ -130,6 +130,16 @@ copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By 
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
+weight = 2
+# copyright
+copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+
+
+################################### Russian language #####################################
+[Languages.ru]
+languageName = "Ru"
+languageCode = "ru-RU"
+contentDir = "content/russian"
 weight = 2
 # copyright
 copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
